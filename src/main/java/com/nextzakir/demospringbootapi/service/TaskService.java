@@ -20,6 +20,7 @@ public interface TaskService {
 
     Long countTasks();
 
+    void delete(Task task);
     void deleteTaskByTaskRdbmsId(Long taskRdbmsId);
 
 }
